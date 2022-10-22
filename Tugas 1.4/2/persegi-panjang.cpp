@@ -7,10 +7,10 @@ main()
     char jenis;
     int panjang, lebar;
 
-    cout << "Fungsi persegi panjang\n";
-    cout << "Luas (L)\n";
-    cout << "Keliling (K)\n";
-    cout << "Diagonal (D)\n";
+    cout << "Fungsi persegi panjang" << endl;
+    cout << "Luas (L)" << endl;
+    cout << "Keliling (K)" << endl;
+    cout << "Diagonal (D)" << endl;
     cout << "Pilih fungsi persegi panjang: ";
     cin >> jenis;
     jenis = tolower(jenis);
