@@ -2,23 +2,34 @@
 using namespace std;
 int main()
 {
-    int x, y;
-    float f, j;
-    string anggota;
-    cout << "masukan jumlah kelompok : ";
-    cin >> j;
-    for (x = 0; x < j;)
+    int jumah_kelompok, jumlah_anggota;
+    cout << "Masukkan jumlah kelompok = ";
+    cin >> jumah_kelompok;
+    cout << "Masukkan jumlah anggota = ";
+    cin >> jumlah_anggota;
+    cout << endl;
+    string **kelompok = new string *[jumlah_anggota];
+    for (int i = 0; i < jumah_kelompok; i++)
     {
-        cout << "kelompok"
-             << " " << x + 1 << endl;
-        cout << "jumlah anggota kelompok : ";
-        cin >> f;
-        for (y = 1; y <= f;)
+        kelompok[i] = new string[jumlah_anggota];
+    }
+    for (int i = 0; i < jumah_kelompok; i++)
+    {
+        cout << "Anggota kelompok " << i + 1 << ":" << endl;
+        for (int j = 0; j < jumlah_anggota; j++)
         {
-            cout << "" << y << ".";
-            cin >> anggota;
-            y++;
+            cout << "Masukkan nama anggota nomor " << j + 1 << " = ";
+            cin >> kelompok[i][j];
         }
-        x++;
+        cout << endl;
+    }
+    for (int i = 0; i < jumah_kelompok; i++)
+    {
+        cout << "Kelompok " << i + 1 << endl;
+        for (int j = 0; j < jumlah_anggota; j++)
+        {
+            cout << j + 1 << ". " << kelompok[i][j] << endl;
+        }
+        cout << endl;
     }
 }

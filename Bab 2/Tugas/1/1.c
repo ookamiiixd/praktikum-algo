@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     float nilai[2][3];
@@ -36,12 +35,16 @@ int main()
         if (baris == 0)
         {
             for (kolom = 0; kolom < 3; kolom++)
+            {
                 jml_nilai1 = jml_nilai1 + nilai[baris][kolom];
+            }
         }
         else
         {
             for (kolom = 0; kolom < 3; kolom++)
+            {
                 jml_nilai2 = jml_nilai2 + nilai[baris][kolom];
+            }
         }
     }
     rerata1 = jml_nilai1 / 3;
@@ -54,17 +57,23 @@ int main()
         if (kolom == 0)
         {
             for (baris = 0; baris < 2; baris++)
+            {
                 jml_nilaicol1 = jml_nilaicol1 + nilai[baris][kolom];
+            }
         }
         else if (kolom == 1)
         {
             for (baris = 0; baris < 2; baris++)
+            {
                 jml_nilaicol2 = jml_nilaicol2 + nilai[baris][kolom];
+            }
         }
         else
         {
             for (baris = 0; baris < 2; baris++)
+            {
                 jml_nilaicol3 = jml_nilaicol3 + nilai[baris][kolom];
+            }
         }
     }
     reratacol1 = jml_nilaicol1 / 2;
