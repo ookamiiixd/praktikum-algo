@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <string.h>
 
 int main()
 {
-    int panjang = 0;
+    int panjang;
 
     printf("Masukkan panjang sisi: ");
     scanf("%d", &panjang);

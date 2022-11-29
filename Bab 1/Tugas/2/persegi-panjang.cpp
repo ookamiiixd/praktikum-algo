@@ -38,7 +38,7 @@ main()
     }
     else if (jenis == 'd')
     {
-        int diagonal = sqrt((panjang * panjang) + (lebar * lebar));
+        float diagonal = sqrt((panjang * panjang) + (lebar * lebar));
         cout << "Diagonal = " << diagonal;
     }
 }
