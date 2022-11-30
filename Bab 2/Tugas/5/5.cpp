@@ -2,6 +2,8 @@
 using namespace std;
 int main()
 {
+    cout << "Nama: Royhan Abdurrohim\n";
+    cout << "NIM: 32602200018\n\n";
     int jumah_kelompok, jumlah_anggota;
     cout << "Masukkan jumlah kelompok = ";
     cin >> jumah_kelompok;

@@ -1,3 +1,4 @@
 **/*.exe
 **/*.class
 **/~*
+NO_COMMIT_*

@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <math.h>
-
 int main()
 {
+    printf("Nama: Royhan Abdurrohim\n");
+    printf("NIM: 32602200018\n\n");
     char jenis;
     int panjang, lebar;
-
     printf("Fungsi persegi panjang\n");
     printf("Luas (L)\n");
     printf("Keliling (K)\n");
@@ -14,18 +14,15 @@ int main()
     printf("Pilih fungsi persegi panjang: ");
     scanf("%s", &jenis);
     jenis = tolower(jenis);
-
     if (jenis != 'l' && jenis != 'k' && jenis != 'd')
     {
         printf("Fungsi yang anda masukkan salah");
         return 0;
     }
-
     printf("Masukkan panjang: ");
     scanf("%d", &panjang);
     printf("Masukkan lebar: ");
     scanf("%d", &lebar);
-
     if (jenis == 'l')
     {
         int luas = panjang * lebar;
@@ -41,6 +38,5 @@ int main()
         float diagonal = sqrt((panjang * panjang) + (lebar * lebar));
         printf("Diagonal = %f", diagonal);
     }
-
     return 0;
 }

@@ -2,8 +2,10 @@
 using namespace std;
 main()
 {
+    cout << "Nama: Royhan Abdurrohim\n";
+    cout << "NIM: 32602200018\n\n";
     int i, j, k, x = 1;
-    int matrik[3][3][4];
+    int matrik[3][4][4];
     cout << " 3 dimensi array " << endl
          << endl;
     for (i = 0; i < 3; i++)

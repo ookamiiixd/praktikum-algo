@@ -2,6 +2,8 @@
 using namespace std;
 int main()
 {
+    cout << "Nama: Royhan Abdurrohim\n";
+    cout << "NIM: 32602200018\n\n";
     typedef int matrik[3][2];
     matrik elemen1, elemen2, hasil_jumlah;
     int baris, kolom;

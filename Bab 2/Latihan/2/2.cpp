@@ -2,6 +2,8 @@
 using namespace std;
 int main()
 {
+    cout << "Nama: Royhan Abdurrohim\n";
+    cout << "NIM: 32602200018\n\n";
     float nilai[2][3];
     int baris, kolom;
     for (baris = 0; baris < 2; baris++)

@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main()
 {
+    printf("Nama: Royhan Abdurrohim\n");
+    printf("NIM: 32602200018\n\n");
     float nilai[2][3];
     int baris, kolom;
     for (baris = 0; baris < 2; baris++)

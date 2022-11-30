@@ -2,6 +2,8 @@
 using namespace std;
 main()
 {
+    cout << "Nama: Royhan Abdurrohim\n";
+    cout << "NIM: 32602200018\n\n";
     int i, j;
     int data[2][2];
     cout << "Input Data" << endl;

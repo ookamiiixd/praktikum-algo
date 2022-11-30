@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
-
 main()
 {
+    cout << "Nama: Royhan Abdurrohim\n";
+    cout << "NIM: 32602200018\n\n";
     int pilihan;
-
     do
     {
         cout << "MENU PILIHAN" << endl;
@@ -15,7 +15,6 @@ main()
         cout << "Pilihan Anda (1/2/3/4) ? ";
         cin >> pilihan;
         cin.ignore();
-
         if (pilihan != 4)
         {
             cout << "Anda memilih menu " << pilihan << endl;

@@ -1,7 +1,9 @@
 #include <iostream>
-
+using namespace std;
 main()
 {
+    cout << "Nama: Royhan Abdurrohim\n";
+    cout << "NIM: 32602200018\n\n";
     char h = 64, nama[4][3][13] = {
                      "Angsa",
                      "Anjing",
