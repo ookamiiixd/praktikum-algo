@@ -62,7 +62,7 @@ int main()
             hasil_kali[i][j] = elemen1[i][j] * elemen2[i][j];
         }
     }
-    // system("cls");
+    system("cls");
     cout << endl;
     cout << "Hasil Penjumlahan Elemen A dan Elemen B adalah : " << endl;
     for (int i = 0; i < baris; i++)
