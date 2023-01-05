@@ -8,7 +8,7 @@ void tukar(int a, int b)
     data[b] = data[a];
     data[a] = t;
 }
-void Input()
+void input()
 {
     printf("Masukkan jumlah data = ");
     scanf("%d", &n);
@@ -21,7 +21,7 @@ void Input()
     }
     printf("\n");
 }
-void Tampil()
+void tampil()
 {
     for (int i = 0; i < n; i++)
     {
@@ -29,7 +29,7 @@ void Tampil()
     }
     printf("\n");
 }
-void bubble_sort()
+void bubbleSort()
 {
     for (int i = 1; i < n; i++)
     {
@@ -38,7 +38,7 @@ void bubble_sort()
             if (data[j] < data[j - 1])
                 tukar(j, j - 1);
         }
-        Tampil();
+        tampil();
     }
     printf("\n");
 }
@@ -47,10 +47,10 @@ int main()
     printf("Nama: Royhan Abdurrohim\n");
     printf("NIM: 32602200018\n\n");
     printf("* Bubble Sort *\n");
-    Input();
+    input();
     printf("Proses Bubble Sort,,,,,,,\n");
     printf("--------------------------------------\n");
-    Tampil();
-    bubble_sort();
+    tampil();
+    bubbleSort();
     printf("--------------------------------------\n");
 }
